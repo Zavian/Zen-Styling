@@ -1,7 +1,7 @@
 Go to [Docs](https://docs.zen-browser.app/guides/live-editing)
 
 
-[Step 1: Access the Profile Folder](#step-1-access-the-profile-folder)
+Step 1: Access the Profile Folder
 ----------------------------------------------------------------------
 
 On the Flatpak version of Zen, the profile folder will be located at `~/.var/app/app.zen_browser.zen/.zen`.
@@ -11,14 +11,14 @@ On the Flatpak version of Zen, the profile folder will be located at `~/.var/app
 3.  Look for the **Application Basics** section.
 4.  Click on **Open Profile Folder**. This will open the folder where Zen Browser stores your user data.
 
-[Step 2: Create the `chrome` Folder](#step-2-create-the-chrome-folder)
+Step 2: Create the `chrome` Folder
 ----------------------------------------------------------------------
 
 1.  In the Profile Folder, create a new folder and name it `chrome`.
 2.  Inside the `chrome` folder, create a new blank file named `userChrome.css`.
 3.  Restart Zen Browser to apply the changes.
 
-[Step 3: Open Style Editor in Zen Browser](#step-3-open-style-editor-in-zen-browser)
+Step 3: Open Style Editor in Zen Browser
 ------------------------------------------------------------------------------------
 
 How do I enable the Browser Developer Tools?
@@ -33,7 +33,7 @@ After Zen Browser version `1.0.0-a.31` the Browser Developer Tools is **disabled
 2.  Navigate to the **Style Editor** tab.
 3.  In the filter/search bar, type `userChrome` to locate the `userChrome.css` file you created earlier.
 
-[Step 4: Edit the `userChrome.css` File](#step-4-edit-the-userchromecss-file)
+Step 4: Edit the `userChrome.css` File
 -----------------------------------------------------------------------------
 
 If a style does not apply as expected, try adding the `!important` keyword at the end of the CSS rule. This forces the browser to apply the style regardless of any other existing styles.
@@ -43,10 +43,10 @@ Tip
 If you wish to edit pop-ups or menus that automatically hide, be sure to enable the `Disable Popup Auto-Hide` option from the _Browser Toolbox_ settings menu ( ⋯ button )
 
 1.  The `userChrome.css` file should now be visible in the Style Editor.
-2.  You can start editing the file directly within the Style Editor. ![inspect button](/_next/static/media/inspect.afe8b4f1.png)
+2.  You can start editing the file directly within the Style Editor.
     *   **Note:** You can use the **Inspect** button to hover over and select elements on the page. This allows you to learn about the `id`, `class`, or other attributes of elements, which you can then target in your `userChrome.css` file.
 3.  To apply your changes, save the file by clicking **Save** or by pressing Ctrl+S.
 
 Any changes you make to the `userChrome.css` file will be applied immediately to Zen Browser. Use this file to customize various UI elements, such as colors, fonts, and the layout.
 
-You can use this guide to help you [create your Zen theme and publish it.](/themes-store/themes-marketplace)
+You can use this guide to help you [create your Zen theme and publish it.](https://docs.zen-browser.app/themes-store/themes-marketplace)
