@@ -1,5 +1,7 @@
 Go to [Docs](https://docs.zen-browser.app/guides/live-editing)
 
+![Preview](src/preview.png)
+
 
 Step 1: Access the Profile Folder
 ----------------------------------------------------------------------
