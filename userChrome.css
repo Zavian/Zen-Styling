@@ -1,0 +1,54 @@
+/* Workspace Name Customization */
+.zen-current-workspace-indicator-icon { scale: 1.3; }
+.zen-current-workspace-indicator-name { font-size: 1.5rem !important; }
+
+/* Top Bar Customization */
+#zen-appcontent-navbar-wrapper {
+	padding-bottom: 2px!important;
+}
+
+
+/* Tab Customization */
+#tabbrowser-tabs[orient="vertical"] {
+	& .tab-content { padding: 1rem; }
+	.tab-text.tab-label { font-size: 1.3rem; }
+	.tab-icon-stack { scale: 1.1; }
+
+	.tabbrowser-tab.tabbrowser-tab.tabbrowser-tab {
+
+		/* Unloaded tabs dimmed */
+		&[pending="true"]:not([zen-essential="true"]) .tab-content {
+			opacity: 0.4;
+		}
+
+		/* Selected tabs that aren't the square essentials */
+		&[selected]:not([zen-essential="true"]) .tab-background {
+			border: 1px solid rgba(from var(--color-accent-primary) r g b / 75%) !important;
+			background-color: rgba(from Canvas r g b / 60%);
+		}
+	}
+}
+
+/* Find bar customization */
+findbar {
+	.findbar-container {
+		padding: 1em;
+		margin: 0;
+	}
+
+	.findbar-textbox {
+		font-size: 1.5em;
+		padding: 0.7rem
+	}
+
+	.findbar-textbox:focus {
+		--toolbar-field-focus-background-color: rgba(from white r g b / 10%);
+		border-color: rgba( from var(--color-accent-primary) r g b / 15%);
+	}
+}
+
+
+/* Main view customization */
+#zen-tabbox-wrapper { box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3); }
+.browserSidebarContainer { outline: 1px solid rgba( from var(--color-accent-primary) r g b / 30%); }
+
