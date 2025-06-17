@@ -7,6 +7,12 @@
 	padding-bottom: 2px!important;
 }
 
+/* History Panel */
+.panel-viewcontainer:has(#PanelUI-history) {
+	max-height: 500px;
+}
+
+
 
 /* Tab Customization */
 #tabbrowser-tabs[orient="vertical"] {
