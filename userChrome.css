@@ -37,6 +37,9 @@
 
 /* Find bar customization */
 findbar {
+	/* To prevent some weird coloring from theme */
+	--zen-primary-color: #180d14;
+
 	.findbar-container {
 		padding: 1em;
 		margin: 0;
